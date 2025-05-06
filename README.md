@@ -37,7 +37,7 @@ This project involves deploying and configuring a phishing attack simulation env
 3 - You will land on this page 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/45e4933b-7950-4970-9fa5-df30982c2f48" alt="Phishing Awareness Illustration" />
+  <img src="https://github.com/user-attachments/assets/5ddcff68-1c1f-40b2-b984-f959af3390d4" alt="Phishing Awareness Illustration" />
 </p>
 <p align="center"><b>Figure 1 : Phishing Awareness Illustration</b></p>
 
