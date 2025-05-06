@@ -58,7 +58,7 @@ This project involves deploying and configuring a phishing attack simulation env
 6 - Next, in the Variables tab, create a new variable PORT with the value 3333
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/46c46f57-681f-49f9-8d60-560a5a0ee3bb)" alt="Setting the PORT Environment Variable in Railway" />
+  <img src="https://github.com/user-attachments/assets/46c46f57-681f-49f9-8d60-560a5a0ee3bb" alt="Setting the PORT Environment Variable in Railway" />
 </p>
 <p align="center"><b>Figure 4 : Setting the PORT Environment Variable in Railway</b></p>
 
@@ -70,9 +70,9 @@ This project involves deploying and configuring a phishing attack simulation env
 
 8 - Finally, edit the config.json file in your forked Gophish repository, and make the following changes:
 
-Change the value of listen_url from 127.0.0.1:3333 to 0.0.0.0:3333 (this will make the service listen on the public address).
-Change the value of use_tls from true to false (Railway will automatically create and maintain the TLS endpoint).
-Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your custom domain instead if you have configured it).
+- Change the value of listen_url from 127.0.0.1:3333 to 0.0.0.0:3333 (this will make the service listen on the public address).
+- Change the value of use_tls from true to false (Railway will automatically create and maintain the TLS endpoint).
+- Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your custom domain instead if you have configured it).
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6996abdd-f0ff-4b19-b52a-c72d8a6e4345" alt="JSON file configuration" />
