@@ -36,7 +36,10 @@ This project involves deploying and configuring a phishing attack simulation env
 
 3 - You will land on this page 
 
-## ![Creating a New Project on Railway from a Forked GitHub Repository](https://github.com/user-attachments/assets/0377eb62-dbc5-4143-a8cf-d8cfd0b21924)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/45e4933b-7950-4970-9fa5-df30982c2f48" alt="Phishing Awareness Illustration" />
+</p>
+<p align="center"><b>Figure 1 : Phishing Awareness Illustration</b></p>
 
 4 - Next choose Deploy from GitHub repo > Configure GitHub app > Choose only selected repositories and Select the gophish repo > Install & Authorize
 
