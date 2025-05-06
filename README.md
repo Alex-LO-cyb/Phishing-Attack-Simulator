@@ -62,7 +62,7 @@ Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your cu
 
 ## ![image](https://github.com/user-attachments/assets/6996abdd-f0ff-4b19-b52a-c72d8a6e4345)
 
-8 - Once you commit your changes, Railway will trigger the deployment again. If all goes well, you'll see the following when you launch the deployment URL.
+9 - Once you commit your changes, Railway will trigger the deployment again. If all goes well, you'll see the following when you launch the deployment URL.
 ## ![image](https://github.com/user-attachments/assets/06cc86ab-3482-4d6b-bd52-7bb24792a898)
 
 ## Run Phishing Attack Simulations with Gophish
@@ -77,7 +77,7 @@ Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your cu
 - Sending profiles to specify sending SMTP relay details
 - Landing pages returned to users when they click the phishing links
 
-3 - Once you have configured the above settings, it's time to create and launch a campaign. Navigate to the Campaigns page and click New Campaign. Most of the fields are self-explanatory and use the templates configured earlier; the URL is the domain of the Gophish listener.
+3 - Once you have configured the above settings, it's time to create and launch a campaign. Navigate to the Campaigns page and click New Campaign. Most of the fields are self-explanatory and use the templates configured earlier, the URL is the domain of the Gophish listener.
 
 4 - Click Launch Campaign to trigger the campaign.
 
