@@ -37,22 +37,27 @@ This project involves deploying and configuring a phishing attack simulation env
 3 - You will land on this page 
 
 ## ![image](https://github.com/user-attachments/assets/0377eb62-dbc5-4143-a8cf-d8cfd0b21924)
+## Ref1 : Creating a New Project on Railway from a Forked GitHub Repository
 
 4 - Next choose Deploy from GitHub repo > Configure GitHub app > Choose only selected repositories and Select the gophish repo > Install & Authorize
 
 ## ![image](https://github.com/user-attachments/assets/71c38b01-796d-4c87-b8e2-e47ef79e69ab)
+## Ref2 : Authorizing and Selecting the Gophish Repository for Deployment
     
 5 - Click on your gophish's project > Settings > Generate Domain and select port 3333
 
 ## ![image](https://github.com/user-attachments/assets/08242aaf-29de-4393-b897-20d6b22e4f39) 
+## Ref3 : Generating a Public Domain for the Gophish Instance
 
 6 - Next, in the Variables tab, create a new variable PORT with the value 3333
 
 ## ![image](https://github.com/user-attachments/assets/46c46f57-681f-49f9-8d60-560a5a0ee3bb)
+## Ref4 : Setting the PORT Environment Variable in Railway
 
 7 - Under Deployments, click View Logs for the latest deployment, and find an entry similar to Please login with the username admin and the password
 
 ## ![image](https://github.com/user-attachments/assets/6b318532-a111-46e3-adc7-3036a885bf40)
+## Ref5 : Retrieving Gophish Admin Credentials from Deployment Logs
 
 8 - Finally, edit the config.json file in your forked Gophish repository, and make the following changes:
 
@@ -63,7 +68,9 @@ Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your cu
 ## ![image](https://github.com/user-attachments/assets/6996abdd-f0ff-4b19-b52a-c72d8a6e4345)
 
 9 - Once you commit your changes, Railway will trigger the deployment again. If all goes well, you'll see the following when you launch the deployment URL.
+
 ## ![image](https://github.com/user-attachments/assets/06cc86ab-3482-4d6b-bd52-7bb24792a898)
+
 
 ## Run Phishing Attack Simulations with Gophish
 1 - Login to the Gophish admin server using the temporary credentials found in the deployment logs, and change the password upon login.
@@ -81,4 +88,5 @@ Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your cu
 
 4 - Click Launch Campaign to trigger the campaign.
 
-![image](https://github.com/user-attachments/assets/5459923c-2bae-4e2e-83bd-2bab21f2428d)
+##![image](https://github.com/user-attachments/assets/5459923c-2bae-4e2e-83bd-2bab21f2428d)
+## Ref6 : Accessing the Gophish Dashboard After Successful Deployment
