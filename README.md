@@ -37,14 +37,16 @@ This project involves deploying and configuring a phishing attack simulation env
 3 - You will land on this page 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5ddcff68-1c1f-40b2-b984-f959af3390d4" alt="Phishing Awareness Illustration" />
+  <img src="https://github.com/user-attachments/assets/5ddcff68-1c1f-40b2-b984-f959af3390d4" alt="Creating a New Project on Railway from a Forked GitHub Repository" />
 </p>
-<p align="center"><b>Figure 1 : Phishing Awareness Illustration</b></p>
+<p align="center"><b>Figure 1 : Creating a New Project on Railway from a Forked GitHub Repository</b></p>
 
 4 - Next choose Deploy from GitHub repo > Configure GitHub app > Choose only selected repositories and Select the gophish repo > Install & Authorize
 
-## ![image](https://github.com/user-attachments/assets/71c38b01-796d-4c87-b8e2-e47ef79e69ab)
-## Ref2 : Authorizing and Selecting the Gophish Repository for Deployment
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/71c38b01-796d-4c87-b8e2-e47ef79e69ab" alt="Authorizing and Selecting the Gophish Repository for Deployment" />
+</p>
+<p align="center"><b>Figure 2 : Creating a New Project on Railway from a Forked GitHub Repository</b></p>
     
 5 - Click on your gophish's project > Settings > Generate Domain and select port 3333
 
