@@ -50,18 +50,23 @@ This project involves deploying and configuring a phishing attack simulation env
     
 5 - Click on your gophish's project > Settings > Generate Domain and select port 3333
 
-## ![image](https://github.com/user-attachments/assets/08242aaf-29de-4393-b897-20d6b22e4f39) 
-## Ref3 : Generating a Public Domain for the Gophish Instance
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/08242aaf-29de-4393-b897-20d6b22e4f39" alt="Generating a Public Domain for the Gophish Instance" />
+</p>
+<p align="center"><b>Figure 3 : Generating a Public Domain for the Gophish Instance</b></p>
 
 6 - Next, in the Variables tab, create a new variable PORT with the value 3333
 
-## ![image](https://github.com/user-attachments/assets/46c46f57-681f-49f9-8d60-560a5a0ee3bb)
-## Ref4 : Setting the PORT Environment Variable in Railway
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46c46f57-681f-49f9-8d60-560a5a0ee3bb)" alt="Setting the PORT Environment Variable in Railway" />
+</p>
+<p align="center"><b>Figure 4 : Setting the PORT Environment Variable in Railway</b></p>
 
 7 - Under Deployments, click View Logs for the latest deployment, and find an entry similar to Please login with the username admin and the password
-
-## ![image](https://github.com/user-attachments/assets/6b318532-a111-46e3-adc7-3036a885bf40)
-## Ref5 : Retrieving Gophish Admin Credentials from Deployment Logs
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6b318532-a111-46e3-adc7-3036a885bf40" alt="Retrieving Gophish Admin Credentials from Deployment Logs" />
+</p>
+<p align="center"><b>Figure 5 : Retrieving Gophish Admin Credentials from Deployment Logs</b></p>
 
 8 - Finally, edit the config.json file in your forked Gophish repository, and make the following changes:
 
@@ -69,12 +74,17 @@ Change the value of listen_url from 127.0.0.1:3333 to 0.0.0.0:3333 (this will ma
 Change the value of use_tls from true to false (Railway will automatically create and maintain the TLS endpoint).
 Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your custom domain instead if you have configured it).
 
-## ![image](https://github.com/user-attachments/assets/6996abdd-f0ff-4b19-b52a-c72d8a6e4345)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6996abdd-f0ff-4b19-b52a-c72d8a6e4345" alt="JSON file configuration" />
+</p>
+<p align="center"><b>Figure 5 : JSON file configuration</b></p>
 
 9 - Once you commit your changes, Railway will trigger the deployment again. If all goes well, you'll see the following when you launch the deployment URL.
 
-## ![image](https://github.com/user-attachments/assets/06cc86ab-3482-4d6b-bd52-7bb24792a898)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/06cc86ab-3482-4d6b-bd52-7bb24792a898" alt="Gophish landing page" />
+</p>
+<p align="center"><b>Figure 6 : Gophish landing page</b></p>
 
 ## Run Phishing Attack Simulations with Gophish
 1 - Login to the Gophish admin server using the temporary credentials found in the deployment logs, and change the password upon login.
@@ -92,5 +102,8 @@ Add the Railway domain in trusted_origins e.g. "xxx.up.railway.app" (use your cu
 
 4 - Click Launch Campaign to trigger the campaign.
 
-##![image](https://github.com/user-attachments/assets/5459923c-2bae-4e2e-83bd-2bab21f2428d)
-## Ref6 : Accessing the Gophish Dashboard After Successful Deployment
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5459923c-2bae-4e2e-83bd-2bab21f2428d" alt="Gophish's dashboard" />
+</p>
+<p align="center"><b>Figure 7 : Gophish's dashboard</b></p>
+
